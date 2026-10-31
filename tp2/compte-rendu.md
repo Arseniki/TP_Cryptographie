@@ -1,4 +1,4 @@
-# TP2 — Infrastructure de gestion de clés
+# TP2 - Infrastructure de gestion de clés
 
 ## Réalisation et vérifications
 

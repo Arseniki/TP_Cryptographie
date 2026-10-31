@@ -1,4 +1,4 @@
-# Travaux pratiques — Ingénierie de la cryptographie
+# Travaux pratiques - Ingénierie de la cryptographie
 
 Dépôt de travail organisé selon la progression du cours et des consignes : chiffrement authentifié, infrastructure de certification, puis déploiement TLS avec authentification mutuelle.
 
@@ -34,13 +34,13 @@ Les étapes sont cumulatives : le TP3 réutilise l’infrastructure produite par
 
 ## Démarrage rapide
 
-### TP1 — tests
+### TP1 - tests
 
 ```bash
 python -m pytest tp1 -v
 ```
 
-### TP2 — construire l’IGC de laboratoire
+### TP2 - construire l’IGC de laboratoire
 
 Le script place les clés privées, certificats et bases de l’autorité dans `~/ec1-pki` par défaut, jamais dans l’arbre du dépôt. Un autre répertoire vide peut être passé en argument :
 
@@ -51,7 +51,7 @@ bash tp2/pki.sh
 
 Le script refuse d’écraser un répertoire de sortie non vide. Il construit les autorités, émet les certificats, vérifie les cas attendus, révoque Alice et émet le certificat client de Bob nécessaire au TP3.
 
-### TP3 — supervision et déploiement
+### TP3 - supervision et déploiement
 
 ```bash
 python tp3/surveiller.py ~/ec1-pki

@@ -1,4 +1,4 @@
-# TP1 — Coffre chiffré
+# TP1 - Coffre chiffré
 
 ## Réalisation
 

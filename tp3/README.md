@@ -1,4 +1,4 @@
-# TP3 — TLS, mTLS et exploitation
+# TP3 - TLS, mTLS et exploitation
 
 ## Configuration
 

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pdf
+
+# Local PKI material must remain outside the repository.
+*.key
+*.pem
+*.crt
+*.csr
+*.crl
+index.txt*
+serial*
+crlnumber*
